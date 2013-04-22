@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlui", "zlui\zlui.vcxproj", "{22C1114B-5B16-4244-ACF4-78498BE1E6AC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlui_example", "zlui_example\zlui_example.vcxproj", "{D165E42D-732D-4338-9EEA-6AFEF7D8723F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{22C1114B-5B16-4244-ACF4-78498BE1E6AC} = {22C1114B-5B16-4244-ACF4-78498BE1E6AC}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +18,10 @@ Global
 		{22C1114B-5B16-4244-ACF4-78498BE1E6AC}.Debug|Win32.Build.0 = Debug|Win32
 		{22C1114B-5B16-4244-ACF4-78498BE1E6AC}.Release|Win32.ActiveCfg = Release|Win32
 		{22C1114B-5B16-4244-ACF4-78498BE1E6AC}.Release|Win32.Build.0 = Release|Win32
+		{D165E42D-732D-4338-9EEA-6AFEF7D8723F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D165E42D-732D-4338-9EEA-6AFEF7D8723F}.Debug|Win32.Build.0 = Debug|Win32
+		{D165E42D-732D-4338-9EEA-6AFEF7D8723F}.Release|Win32.ActiveCfg = Release|Win32
+		{D165E42D-732D-4338-9EEA-6AFEF7D8723F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
